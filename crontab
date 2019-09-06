@@ -1,0 +1,1 @@
+0 0 * * * find /home/mfbase/var/storage/map_snow/ -type d -mtime +6 -exec rm -rf "{}" \;
